@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/murilera/nodejs-api-model.git"
+    "url": "git@github.com:murilera/nodejs-api-model.git"
   },
   "author": "Murilo Rodegheri",
   "license": "MIT",
