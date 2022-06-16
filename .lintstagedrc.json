@@ -1,0 +1,12 @@
+{
+  "*.{js,jsx}": ["npx eslint --fix"]
+}
+
+// {
+//   "./**/*.{js,ts,json,css,scss,md}": [
+//     "prettier --write"
+//   ],
+//   "src/**/*.+(js,ts,json,css,scss,md)": [
+//     "tslint"
+//   ]
+// }
