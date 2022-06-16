@@ -6,7 +6,7 @@
   "scripts": {
     "prepare": "husky install",
     "lint-staged": "lint-staged — config .lintstagedrc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "semantic-release --no-ci"
   },
   "repository": {
     "type": "git",
@@ -21,12 +21,15 @@
   "devDependencies": {
     "@commitlint/cli": "^17.0.2",
     "@commitlint/config-conventional": "^17.0.2",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
     "eslint": "^8.17.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-n": "^15.2.3",
     "eslint-plugin-promise": "^6.0.0",
     "husky": "^8.0.1",
-    "lint-staged": "^13.0.1"
+    "lint-staged": "^13.0.1",
+    "semantic-release": "^19.0.3"
   }
 }
